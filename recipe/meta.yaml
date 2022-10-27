@@ -1,5 +1,5 @@
 {% set name = "scriptengine" %}
-{% set version = "0.12.7" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/scriptengine-{{ version }}.tar.gz
-  sha256: 3de033c996a14bd836d73ff6bb3d4a80352e0555e6a2e94621a531f3457caee5
+  sha256: e4411ee7fd6693745c7732330b843411661cd60b621ee930a0d61b32f6cf5182
 
 build:
   entry_points:
